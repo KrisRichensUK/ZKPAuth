@@ -152,6 +152,15 @@ the supplied capsule. The Richens polynomial response interlocks with the
 capsule's cubic commitments, so only the original essence holder can satisfy the
 equations.
 
+## Tests
+
+Unit tests cover both the classical Schnorr flow and the experimental Richens
+method. Run the suite with:
+
+```bash
+python -m unittest discover -s tests
+```
+
 ## Zero-knowledge authentication for the web
 
 The `zkpauth.server` module exposes the same Schnorr flow over HTTP so a web property can
