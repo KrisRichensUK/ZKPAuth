@@ -191,5 +191,4 @@ without ever disclosing the long-term secret.
 - The implementation is intended for educational use; it omits production features
   such as rate limiting and secure secret storage.
 - Removing `users.json` resets the demonstration environment.
-- Increase the number of rounds in `zkpauth/constants.py` for higher security margins.
- 
+- Increase the number of rounds in `zkpauth/constants.py` for higher security margins. 
