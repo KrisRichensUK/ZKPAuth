@@ -192,20 +192,4 @@ without ever disclosing the long-term secret.
   such as rate limiting and secure secret storage.
 - Removing `users.json` resets the demonstration environment.
 - Increase the number of rounds in `zkpauth/constants.py` for higher security margins.
-
-## Publishing to GitHub
-
-The repository can be pushed to a GitHub account with the included helper script. It
-relies on the [GitHub CLI](https://cli.github.com/) and assumes you have already
-authenticated with `gh auth login`.
-
-```bash
-# Publish to github.com/<username>/ZKPAuth
-./scripts/publish.sh <username>
-
-# Publish to github.com/<username>/<custom-repo>
-./scripts/publish.sh <username> <custom-repo>
-```
-
-The script initialises the `origin` remote if needed, creates the GitHub repository
-when it does not yet exist, and pushes the current branch upstream.
+ 
